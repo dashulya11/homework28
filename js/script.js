@@ -16,12 +16,12 @@ const calculator = {
         console.log(this);
     },
     sum() {
-        return  this.num1 + this.num2;
+        return this.num1 + this.num2;
     },
     mul() {
         return this.num1 * this.num2;
     }
-}
+};
 
 calculator.read();
 alert(`суммирование: ${calculator.sum()}`);
